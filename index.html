@@ -23,7 +23,12 @@
       <a href="#experience">parcours</a>
       <a href="#contact">contact</a>
     </div>
-    <a href="#contact" class="nav-cta">Me contacter</a>
+    <div class="nav-ctas">
+      <a href="CV-Mamady SIDIBE.pdf" download="CV-Mamady SIDIBE.pdf" class="nav-cta cv-btn">
+        <span class="icon">➔</span> Télécharger CV
+      </a>
+      <a href="#contact" class="nav-cta">Me contacter</a>
+    </div>
   </div>
 </nav>
 
@@ -56,18 +61,39 @@
   <div class="section-inner">
     <div class="eyebrow"><span class="eyebrow-tag">$</span> whoami</div>
     <h2 class="section-title">Analyste Cybersécurité,<br>profil <span class="accent">BlueTeam &amp; RedTeam</span>.</h2>
-    <div class="about-grid">
-      <p class="about-text">
-        Basé à Abidjan, je couvre le spectre défensif et offensif de la cybersécurité : détection d'intrusions, investigation numérique (DFIR), audit de conformité côté BlueTeam ; exploitation de vulnérabilités et tests d'intrusion côté RedTeam.
-      </p>
-      <p class="about-text">
-        Certifié Google Cybersecurity (Coursera), formé en sécurité réseau via Cisco Networking Academy et spécialisé en sécurité numérique chez WECODE Abidjan jusqu'en juillet 2026. Disponible immédiatement pour un stage ou une mission terrain.
-      </p>
+    
+    <div class="about-wrapper">
+      <div class="about-grid">
+        <p class="about-text">
+          Basé à Abidjan, je couvre le spectre défensif et offensif de la cybersécurité : détection d'intrusions, investigation numérique (DFIR), audit de conformité côté BlueTeam ; exploitation de vulnérabilités et tests d'intrusion côté RedTeam.
+        </p>
+        <p class="about-text">
+          Certifié Google Cybersecurity (Coursera), formé en sécurité réseau via Cisco Networking Academy et spécialisé en sécurité numérique chez WECODE Abidjan. Disponible immédiatement pour un stage ou une mission terrain.
+        </p>
+        <!-- NOUVEAU BUTTON CV SOUS LE TEXTE -->
+        <a href="CV-Mamady SIDIBE.pdf" download="CV-Mamady SIDIBE.pdf" class="github-cta cv-profile-btn" style="margin-top: 16px;">
+          <span>Télécharger mon CV (PDF)</span>
+          <span class="arrow">⤓</span>
+        </a>
+      </div>
+
+      <!-- NOUVEAU BLOCK : Photo de profil animée style Cyber-HUD -->
+      <div class="about-profile-zone">
+        <div class="profile-frame">
+          <div class="profile-scan-line"></div>
+          <img src="avatar.jpg" alt="Mamady Sidibé" class="profile-img">
+          <div class="frame-corner top-left"></div>
+          <div class="frame-corner top-right"></div>
+          <div class="frame-corner bottom-left"></div>
+          <div class="frame-corner bottom-right"></div>
+        </div>
+      </div>
     </div>
+
     <div class="about-stats">
       <div class="stat">
         <span class="stat-number">4</span>
-        <span class="stat-label">certifications obtenues<br>Google · Cisco · GSIMEL</span>
+        <span class="stat-label">certifications &amp; affiliations<br>Google · Cisco · GSIMEL</span>
       </div>
       <div class="stat">
         <span class="stat-number">93</span>
@@ -173,6 +199,34 @@
     <h2 class="section-title">Projets &amp; laboratoires techniques</h2>
 
     <div class="projects-list">
+
+      <article class="project-row">
+        <div class="project-meta">
+          <span class="project-tag tag-dfir">SOAR · AUTOMATION</span>
+          <span class="project-date">Juin 2026</span>
+        </div>
+        <div class="project-content">
+          <h3>Auditeur SOAR &amp; Listener Alerte SIEM</h3>
+          <p>Développement et déploiement d'un listener webhook Flask (Python) automatisant la réponse aux incidents. Capture en temps réel des alertes de brute force SSH d'Elastic SIEM ("BlueShield") et routage dynamique vers un canal Slack d'astreinte.</p>
+          <div class="project-tools">
+            <span>Python</span><span>Flask</span><span>Elastic SIEM</span><span>Slack API</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-row">
+        <div class="project-meta">
+          <span class="project-tag tag-grc">ESG · MOBILITÉ</span>
+          <span class="project-date">Juin 2026</span>
+        </div>
+        <div class="project-content">
+          <h3>EcoFleet CI — Traçabilité Carbone</h3>
+          <p>Conception d'une architecture applicative de suivi d'empreinte carbone pour les flottes de transport à Abidjan. Intégration des rapports d'émissions CO2 pour la gouvernance ESG sectorielle.</p>
+          <div class="project-tools">
+            <span>Calcul d'émissions</span><span>Reporting ESG</span><span>Merise</span>
+          </div>
+        </div>
+      </article>
 
       <article class="project-row">
         <div class="project-meta">

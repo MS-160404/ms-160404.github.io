@@ -41,7 +41,7 @@ if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
 }
 
 // ===== SCROLL REVEAL FOR SECTIONS =====
-const revealEls = document.querySelectorAll('.skill-card, .project-row, .timeline-item, .stat, .contact-card, .cert-card');
+const revealEls = document.querySelectorAll('.skill-card, .project-row, .timeline-item, .stat, .contact-card, .cert-card, .profile-frame');
 
 const observer = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
